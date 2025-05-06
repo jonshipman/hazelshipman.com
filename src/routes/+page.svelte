@@ -2,8 +2,9 @@
 	import { dev } from '$app/environment';
 	import { page } from '$app/stores';
 
-	const DESTINATION =
+	let DESTINATION =
 		'https://www.amazon.com/hz/wishlist/ls/3PBM618DVH2V5?ref_=list_d_wl_lfu_nav_7';
+	DESTINATION = 'https://www.redbubble.com/people/jonshipman/shop?artistUserName=jonshipman&asc=u&collections=4245161';
 
 	$: url = $page.url.toString();
 </script>
